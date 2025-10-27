@@ -24,11 +24,12 @@ They can be installed using:
 
 # What i built ?
  - A Python-based pipeline that:
-         - Loads an existing rare event CSV dataset or creates a dummy dataset if the file is missing.
-         - Preprocesses the data by imputing missing values, scaling numerical features, and encoding categorical features.
-         - Defines and trains a VAE model on the preprocessed data.
-         - Generates synthetic data samples via the trained VAE decoder.
-         - Compares synthetic and original data using visualization and statistics for quality evaluation.
+   
+    - Loads an existing rare event CSV dataset or creates a dummy dataset if the file is missing.
+    - Preprocesses the data by imputing missing values, scaling numerical features, and encoding categorical features.
+    - Defines and trains a VAE model on the preprocessed data.
+    - Generates synthetic data samples via the trained VAE decoder.
+    - Compares synthetic and original data using visualization and statistics for quality evaluation.
 
 # Why i built it ?
 Rare event data is often insufficient for building effective models due to its scarcity. This project addresses the challenge of data scarcity by generating high-quality synthetic data that resembles the original rare event distribution, facilitating robust model training, evaluation, and experimentation.
